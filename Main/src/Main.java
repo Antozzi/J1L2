@@ -60,6 +60,14 @@ public class Main {
         }
         System.out.println("\r");
     }
+    
+    /**
+    /*Short variant from instructor
+    */
+    for (int i = 0; i < rec1.length; i++) {
+        rec1[i][i] = 1;
+        rec1[i][rec1.lenght - 1 - i] = 1;
+    }
     /**
      * 5. ** Задать одномерный массив и найти в нем минимальный и максимальный элементы (без помощи интернета);
      */
