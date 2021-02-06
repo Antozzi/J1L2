@@ -87,6 +87,10 @@ public class Main {
         System.out.println("Min[" + findMin + "] = " + minEl);
         System.out.println("\r");
     }
+    
+    /**
+    /*Short variant from instructor
+    */
 
     /**
      * А дальше у меня просто башки не хватает уже...
